@@ -1,1 +1,52 @@
-/*  your css code here. If applicable */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hep .circle, .hep .rect {
+    border-color: blue;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.outer {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.outer .rect {
+    width: 70px;
+    height: 5px;
+    background-color: #5a5a5a;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer .circle {
+    border: 2px solid #4e4e4e;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+}
